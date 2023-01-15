@@ -2,13 +2,12 @@ import React from 'react';
 import './about.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import InfoBox from './info_box';
 import Container from 'react-bootstrap/Container';
-import LargePurpleBubble from './purple_bubble_L';
-import MediumPurpleBubble from './purple_bubble_m';
-import SmallPurpleBubble from './purple_bubble_s';
-import MediumRedBubble from './red_bubble_m';
-import SmallRedBubble from './red_bubble_s';
+// import LargePurpleBubble from './purple_bubble_L';
+// import MediumPurpleBubble from './purple_bubble_m';
+// import SmallPurpleBubble from './purple_bubble_s';
+// import MediumRedBubble from './red_bubble_m';
+// import SmallRedBubble from './red_bubble_s';
 import bgb from '../resources/layer5.svg'
 
 
@@ -19,14 +18,14 @@ function AboutUs() {
             <Container>
                 <Row><h1>ABOUT</h1></Row>
                 <Row>
-                <Col>
+                <Col className="w-50">
                     <div className='seca'>
-                        <Container className='about_info col-md-8 center w-50'>
+                        <Container className='about_info col-md-8 center w-100'>
 
                             <Row className='text-justify ml-3 mr-3'>
                                 <p className='about_text'>UnScript, Fr.CRCE's annual national level hackathon has entered its 4th edition.</p>
                             </Row>
-                            <Row className=''>
+                            <Row>
                                 <Col className='center info_box'><p className='info_text'>24 hrs</p></Col>
                                 <Col className='center info_box'><p className='info_text'>2 Domains</p></Col>
                                 <Col className='center info_box'><p className='info_text'>40 Teams</p></Col>
@@ -40,7 +39,7 @@ function AboutUs() {
 
                     </div>
                 </Col>
-                <Col className="w-50">
+                <Col className="sideim w-50">
                     <img src={bgb} alt='' />
                 </Col>
                 </Row>

@@ -15,8 +15,8 @@
 }
 
 .about_info{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     margin: 10px;
     font-size:x-large;
     font-family: 'Encoded Sans';
@@ -63,3 +63,4 @@
     text-align: center;
     font-family: 'Encode Sans';
 }
+
