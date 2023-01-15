@@ -9,7 +9,7 @@
     margin: 15px;
     width: 100%;
     text-align: center;
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
     padding-top: 5%;
     padding-bottom: 5%;
 
@@ -25,7 +25,7 @@
     width: 100%;
     margin: 10px;
     font-size:x-large;
-    font-family: 'Encoded Sans';
+    font-family: 'Encoded Sans', sans-serif;
     background: rgba(255, 255, 255, 0.5);
     mix-blend-mode: overlay;
     border: 2px solid rgba(255, 255, 255, 0.69);
@@ -68,7 +68,7 @@
     color: #000;
     background: linear-gradient(90deg, #B324FE 10%, #5DFEFF 100%);
     text-align: center;
-    font-family: 'Encode Sans';
+    font-family: 'Encode Sans', sans-serif;
 }
 
 .sideim{
