@@ -1,0 +1,29 @@
+/* #timeline{
+    height:100vh;
+} */
+
+#timeline h1{
+    color: #000;
+    margin: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Encode Sans';
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.vertical-timeline-element-title{
+    color: #000 !important;
+}
+.vertical-timeline-element-content{
+    color: #000 !important;
+    mix-blend-mode: overlay;
+    background: rgba(96, 96, 96, 0.47);
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Encode sans';
+} 
+.vertical-timeline-element-date {
+	padding: 0 !important;
+	margin: 0 !important;
+}

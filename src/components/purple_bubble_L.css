@@ -1,0 +1,9 @@
+#pbl{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(225deg, #B324FE 0%, #5DFEFF 100%);
+    border-radius: 100px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}

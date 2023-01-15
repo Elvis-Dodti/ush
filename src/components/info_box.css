@@ -1,0 +1,19 @@
+.info_box{
+    display: inline;
+    align-items: center;
+    border-radius: 30px;
+    width: fit-content;
+    background: linear-gradient(90deg, #B324FE 0%, #5DFEFF 100%);  
+    padding: 0.5rem;
+    margin-right: 0.5rem; 
+}
+
+.info_text{
+    display: inline;
+    color: white;
+    text-align: center;
+}
+
+.points{
+    margin:auto;
+}

@@ -1,0 +1,65 @@
+#about{
+    position: relative;
+    /* height: 100vh; */
+    margin: 10px;
+}
+#about h1{
+    color: #000;
+    margin: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Encode Sans';
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.about_info{
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+    font-size:x-large;
+    font-family: 'Encoded Sans';
+    background: rgba(255, 255, 255, 0.5);
+    mix-blend-mode: overlay;
+    border: 2px solid rgba(255, 255, 255, 0.69);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+
+.about_text{
+    background: linear-gradient(277.03deg, #FF0000 5.42%, #7400E0 101.79%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+    text-align: center;
+    font-family: 'Encode Sans';
+    font-weight: 100;
+}
+
+.seca{
+    width: 100%;
+    display: flex;
+    /* background-image: url(../resources/about_sideimg.svg); */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-origin: content-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.info_text {
+    font-size: 20px;
+    border-radius: 25px;
+    color: #000;
+    background: linear-gradient(90deg, #B324FE 10%, #5DFEFF 100%);
+    text-align: center;
+    font-family: 'Encode Sans';
+}

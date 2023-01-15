@@ -1,0 +1,50 @@
+#intro{
+    height: 100vh;
+
+}
+.backdropa{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/backdropa.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.infobox{
+    position: absolute;
+    top: 30%;
+    margin-right: 10px;
+    right: 0;
+    width: 50%;
+    text-align: center;
+}
+.infobox h1{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    color: #000;
+}
+.infobox h2{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+
+.infobox h3{
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+
+    background: linear-gradient(180deg, #5DFEFF 0%, #B324FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
