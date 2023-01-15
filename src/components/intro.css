@@ -1,9 +1,16 @@
 #intro{
-    height: 100vh;
     margin-bottom: 25px;
 
 }
-
+.backdropa{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/backdropa.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
 .infobox{
     position: absolute;
     top: 30%;
@@ -41,4 +48,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.reg{
+    background: rgba(217, 217, 217, 0.57);
+    border: 1px solid rgba(227, 227, 227, 0.65);
+    mix-blend-mode: overlay;
+    border-radius: 5px;
 }

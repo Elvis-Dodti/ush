@@ -13,16 +13,15 @@ import bgb from '../resources/layer5.svg'
 
 function AboutUs() {
     return (
-        <section id="about">
+        <section id="about"  className="parta">
             
             <Container>
                 <Row><h1>ABOUT</h1></Row>
-                <Row>
-                <Col className="w-50">
+                <Row  className=" align-items-center list-inline mx-auto">
+                <Col md={12} className="w-40 list-inline-item mx-3">
                     <div className='seca'>
                         <Container className='about_info col-md-8 center w-100'>
-
-                            <Row className='text-justify ml-3 mr-3'>
+                            <Row className="align-items-center"><Row className='text-justify ml-3 mr-3'>
                                 <p className='about_text'>UnScript, Fr.CRCE's annual national level hackathon has entered its 4th edition.</p>
                             </Row>
                             <Row>
@@ -33,13 +32,14 @@ function AboutUs() {
                             <Row className='text-justify ml-3 mr-3'>
                                 <p className='about_text'>UnScript wishes in bringing opportunities to all coders to have a
                                     hands-on experience on various domains and bring the best out of them. </p>
-                            </Row>
+                            </Row></Row>
+                            
 
                         </Container>
 
                     </div>
                 </Col>
-                <Col className="sideim w-50">
+                <Col md={12} className="sideim list-inline-item mx-3 w-40">
                     <img src={bgb} alt='' />
                 </Col>
                 </Row>

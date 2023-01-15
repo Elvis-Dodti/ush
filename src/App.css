@@ -1,5 +1,5 @@
 .App {
-  background-image: url("./resources/appbg.svg");
+  background: linear-gradient(247.13deg, #5DFEFF 0%, #5349CB 37.46%, #4D0293 61.77%, #190033 100%);
   background-attachment:fixed;
   background-position: center fixed;
   background-repeat: no-repeat;

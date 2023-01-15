@@ -2,6 +2,7 @@
     position: relative;
     /* height: 100vh; */
     margin: 10px;
+    padding-bottom: 2%;
 }
 #about h1{
     color: #000;
@@ -13,7 +14,12 @@
     padding-bottom: 5%;
 
 }
-
+.parta{
+    background-image: url('../resources/aboutbg.svg');  
+    background-position: center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .about_info{
     height: 100%;
     width: 100%;
@@ -30,13 +36,13 @@
 }
 
 .about_text{
-    background: linear-gradient(277.03deg, #FF0000 5.42%, #7400E0 101.79%); 
+    background: linear-gradient(92.14deg, #FF0000 -29.01%, #FEE824 153.54%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: none;
     text-align: center;
-    font-family: 'Encode Sans';
-    font-weight: 100;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
 }
 
 .seca{
@@ -57,6 +63,7 @@
 
 .info_text {
     font-size: 20px;
+    padding: 25px;
     border-radius: 25px;
     color: #000;
     background: linear-gradient(90deg, #B324FE 10%, #5DFEFF 100%);
@@ -64,3 +71,8 @@
     font-family: 'Encode Sans';
 }
 
+.sideim{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

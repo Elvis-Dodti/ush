@@ -1,5 +1,5 @@
 import React from 'react'
-import Row from 'react-bootstrap/Row';
+// import Row from 'react-bootstrap/Row';
 import fbg from '../resources/backdropa.svg'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -19,6 +19,7 @@ function Intro() {
                     <h1>UNSCR;PT 2023</h1>
                     <h2>Rookie's Hackathon</h2>
                     <h3>Exclusively for <br/> 2nd Year Students</h3>
+                    <button type="button" className="reg btn btn-outline-dark">Register Here</button>
                 </div>
                 </Col>
                 
