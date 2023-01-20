@@ -27,9 +27,32 @@
     font-family: 'Encode Sans', sans-serif;;
 }
 
-.hold img{
+.hold .ima{
     padding: 10px;
     margin: 20px;
     width:20vw;
     height:20vw;
 }
+.hold .imb{
+    padding: 10px;
+    margin: 20px;
+    width:20vw;
+    height:20vw;
+}
+
+.trophy {
+    width: 4rem !important;
+    color: orange;
+  }
+  
+  .para-trophy {
+    color: rgb(48, 9, 9);
+    font-weight: 500;
+  }
+  
+  .grid-box-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 5px;
+  }
+  
